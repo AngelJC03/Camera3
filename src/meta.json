@@ -47,6 +47,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 },
@@ -71,6 +72,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 }
@@ -122,7 +124,12 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -166,7 +173,12 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSMicrophoneUsageDescription": ""
+                        }
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -197,6 +209,11 @@
                     "scope": "APP",
                     "name": "length",
                     "screenId": "4c6a4469-0fc3-4851-98c2-a0a962022655"
+                },
+                "7a8121f5-5acd-4d0d-8525-4352c4e14a17": {
+                    "scope": "APP",
+                    "name": "Use Voice",
+                    "screenId": "5e242632-a373-43f4-9014-2973caa9c0f7"
                 }
             },
             "defaultDesignerDevice": "PHONE",
